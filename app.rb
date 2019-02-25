@@ -24,7 +24,7 @@ class App < Roda
 
     r.on "next", String, method: [:get, :post] do |id|
       counter = Counter.incr_by(id, 1)
-      Base32::Crockford.encode(counter)
+      Base32::Crockford.encode(counter).downcase
     end
   end
 end
