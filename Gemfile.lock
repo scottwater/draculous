@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base32-crockford (0.1.0)
+    pg (1.1.4)
+    rack (2.0.6)
+    roda (3.17.0)
+      rack
+    sequel (5.17.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  base32-crockford
+  pg
+  roda
+  sequel
+
+BUNDLED WITH
+   1.17.1
