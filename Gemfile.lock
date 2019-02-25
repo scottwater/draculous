@@ -4,6 +4,7 @@ GEM
     base32-crockford (0.1.0)
     pg (1.1.4)
     rack (2.0.6)
+    rake (12.3.2)
     roda (3.17.0)
       rack
     sequel (5.17.0)
@@ -14,6 +15,7 @@ PLATFORMS
 DEPENDENCIES
   base32-crockford
   pg
+  rake
   roda
   sequel
 
