@@ -1,0 +1,11 @@
+{
+  "name": "Draculous",
+  "description": "Counting as a service",
+  "repository": "https://github.com/scottwater/draculous",
+  "keywords": ["ruby", "api", "roda", "sequel"],
+  "website": "https://scottw.com/draculous",
+  "success_url": "/",
+  "scripts": {
+    "postdeploy": "bundle exec rake setup"
+  }
+}
